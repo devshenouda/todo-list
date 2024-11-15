@@ -112,10 +112,12 @@ body{
 .check {
     text-decoration: line-through;
     opacity: 0.6;
+    transition: 0.6s all;
 }
 
 .lists li.check::before{
     background: url(../img/after\ chack.png) center/cover;
+    transition: 0.6s all;
 }
 
 .error{
