@@ -73,6 +73,11 @@ body{
     font-size: 15px;
     cursor: pointer;
     /* padding-bottom: 20px; ; */
+    transition: 0.4s all;
+}
+
+.inputtask button:hover{
+    background-color: #104b49;
 }
 .inputtask{
     padding-bottom: 50px;
